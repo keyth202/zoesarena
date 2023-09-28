@@ -78,13 +78,25 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+client/.env
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/.env.local
+server/.env
+server/.env.development.local
+server/.env.test.local
+server/.env.production.local
+server/.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
 
 # Next.js build output
+client/.next
 .next
+client/out
 out
 
 # Nuxt.js build / generate output
@@ -125,3 +137,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Current Config
+client/node_modules/
+server/config/default.js
+server/node_modules/
